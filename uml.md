@@ -1,21 +1,4 @@
 ```mermaid
-classDiagram
-  class Nodo {
-    - int id
-    - bool pulso_vital
-    - string Estado
-    - vector <MagicalCreature>
-    + Nodo(id: int)
-    + getid() int
-    + getpulso_vital() int
-    + getestado() string
-    + void Mostrarcriaturas()
-    + setpulso_vital(pulso : bool)
-    + setestado(est: string)
-    + agregarcriatura(ctia: MagicalCreature)
-    + eliminarcriatura(ctia: MagicalCreature)
-    + vaciarse()
-  }
 
 classDiagram
     class MagicalCreature {
@@ -44,6 +27,23 @@ classDiagram
         + recibirAtaque(dano: int)
         + mostrar()
     }
+
+  class Nodo {
+    - int id
+    - bool pulso_vital
+    - string Estado
+    - vector <MagicalCreature>
+    + Nodo(id: int)
+    + getid() int
+    + getpulso_vital() int
+    + getestado() string
+    + void Mostrarcriaturas()
+    + setpulso_vital(pulso : bool)
+    + setestado(est: string)
+    + agregarcriatura(ctia: MagicalCreature)
+    + eliminarcriatura(ctia: MagicalCreature)
+    + vaciarse()
+  }
 
     MagicalCreature <|-- Dragon
     MagicalCreature <|-- Hada
