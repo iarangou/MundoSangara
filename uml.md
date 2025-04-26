@@ -48,7 +48,7 @@ classDiagram
         + getpulso_vital() bool
         + getestado() string
         + void Mostrarcriaturas()
-        + setpulso_vital(pulso : bool)
+        + setpulso_vital(pulso: bool)
         + setestado(est: string)
         + agregarcriatura(ctia: MagicalCreature)
         + eliminarcriatura(ctia: MagicalCreature)
@@ -66,20 +66,21 @@ classDiagram
         + loadFromJSON(path: string)
     }
 
-    %% asociaciones y notas %%
-    MagicalCreature "1" ..> "0..*" MagicalCreature : interactuarCon(ct: MagicalCreature)
+    %% Asociación simple entre criaturas
+    MagicalCreature "1" ..> "0..*" MagicalCreature : interactuarCon
+
+    %% Nota sobre RNG
     note right of MagicalCreature
-      Métodos puros (=0) que
-      definen el ciclo de vida.\n
-      Se usa <random> para movimientos,
+      Se utiliza <random> para movimientos,
       mutaciones y decisiones.
     end note
 
-    %% relaciones de herencia %%
+    %% Herencias
     MagicalCreature <|-- Dragon
     MagicalCreature <|-- Hada
     Dragon <|-- Quimera
     Hada <|-- Quimera
-    Mundo o-- Nodo : contiene >
 
+    %% Composición Mundo → Nodo
+    Mundo o-- Nodo : contiene
 ```
