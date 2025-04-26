@@ -28,23 +28,34 @@ classDiagram
         + mostrar()
     }
 
-  class Nodo {
-    - int id
-    - bool pulso_vital
-    - string Estado
-    - vector <MagicalCreature>
-    + Nodo(id: int)
-    + getid() int
-    + getpulso_vital() int
-    + getestado() string
-    + void Mostrarcriaturas()
-    + setpulso_vital(pulso : bool)
-    + setestado(est: string)
-    + agregarcriatura(ctia: MagicalCreature)
-    + eliminarcriatura(ctia: MagicalCreature)
-    + vaciarse()
-  }
+    class Nodo {
+        - int id
+        - bool pulso_vital
+        - string Estado
+        - vector<MagicalCreature>
+        + Nodo(id: int)
+        + getid() int
+        + getpulso_vital() int
+        + getestado() string
+        + void Mostrarcriaturas()
+        + setpulso_vital(pulso : bool)
+        + setestado(est: string)
+        + agregarcriatura(ctia: MagicalCreature)
+        + eliminarcriatura(ctia: MagicalCreature)
+        + vaciarse()
+    }
+
+    class Quimera {
+        - int ferocidad
+        + Quimera(name: string, vitalidad: int, poder: int, fireResistance: int, healingPower: int, ferocidad: int)
+        + recibirAtaque(dano: int)
+        + mostrar()
+    }
 
     MagicalCreature <|-- Dragon
     MagicalCreature <|-- Hada
+    Dragon <|-- Quimera
+    Hada <|-- Quimera
+
+
 ```
