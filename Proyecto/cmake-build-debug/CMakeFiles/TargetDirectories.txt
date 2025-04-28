@@ -1,0 +1,3 @@
+C:/Users/57318/OneDrive/Escritorio/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
+C:/Users/57318/OneDrive/Escritorio/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/57318/OneDrive/Escritorio/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
