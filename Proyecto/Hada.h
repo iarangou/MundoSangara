@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HADA_H
+#define HADA_H
+
 #include "MagicalCreature.h"
 
 class Hada : virtual public MagicalCreature {
@@ -16,3 +18,5 @@ public:
     virtual void mostrar() const override;
     virtual json serializar() const override;
 };
+
+#endif
