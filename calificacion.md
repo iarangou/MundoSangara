@@ -1,12 +1,12 @@
-### ✅ Autoevaluación — *[Nombre del evaluador]*
+### ✅ Autoevaluación — *[Santiago Carvajal]*
 
 | Criterio                          | Puntaje (1-5) | Comentarios breves                                   |
 |----------------------------------|---------------|-------------------------------------------------------|
-| Colaboración y trabajo en equipo |               |                                                       |
-| Responsabilidad y compromiso     |               |                                                       |
-| Contribución técnica             |               |                                                       |
-| Uso de asistentes de IA          |               |                                                       |
-| **Subtotal autoevaluación**      | ** / 20**      |                                                      |
+| Colaboración y trabajo en equipo |   5           | trabajamos siempre en comunicacion y equipo para la elaboracion del proyecto|
+| Responsabilidad y compromiso     |   5           | cumpli con la parte que se me asigno dentro del proyecto|
+| Contribución técnica             |   4           | hice la parte de las clases de las criaturas, herencias, metodos etc...|
+| Uso de asistentes de IA          |   4           | La use para revisar errores, y crear codigos base en los cuales trabajar para agilizar el proceso                                                      |
+| **Subtotal autoevaluación**      | **18 / 20**      |                                                      |
 
 ---
 
