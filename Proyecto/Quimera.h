@@ -1,4 +1,7 @@
-#pragma once
+#ifndef QUIMERA_H
+#define QUIMERA_H
+
+
 #include "Dragon.h"
 #include "Hada.h"
 
@@ -17,3 +20,5 @@ public:
     virtual void mostrar() const override;
     virtual json serializar() const override;
 };
+
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef DRAGON_H
+#define DRAGON_H
+
 #include "MagicalCreature.h"
 
 class Dragon : virtual public MagicalCreature {
@@ -16,3 +18,5 @@ public:
     virtual void mostrar() const override;
     virtual json serializar() const override;
 };
+
+#endif
