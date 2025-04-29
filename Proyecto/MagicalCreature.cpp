@@ -52,3 +52,4 @@ json MagicalCreature::serializar() const {
             {"poder", poder}
     };
 }
+
