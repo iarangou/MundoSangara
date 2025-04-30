@@ -26,11 +26,11 @@
 
 | Criterio                          | Puntaje (1-5) | Comentarios breves                          |
 |----------------------------------|---------------|----------------------------------------------|
-| Colaboración y trabajo en equipo |               |                                              |
-| Responsabilidad y compromiso     |               |                                              |
-| Contribución técnica             |               |                                              |
-| Uso de asistentes de IA          |               |                                              |
-| **Subtotal evaluación de [Nombre del evaluador]** | ** / 20** |                                        |
+| Colaboración y trabajo en equipo |        5       |                                              |
+| Responsabilidad y compromiso     |        5       |                                              |
+| Contribución técnica             |        5       |                                              |
+| Uso de asistentes de IA          |        5       |                                              |
+| **Subtotal evaluación de [Nombre del evaluador]** | **20 / 20** |                                        |
 
 ### 👤 Coevaluación — *[Santiago Carvajal]* (evaluada por [Isabella Arango])
 
