@@ -15,7 +15,7 @@ El propósito del sistema es brindar una herramienta didáctica para comprender 
 - Comportamientos diferenciados por especie: las Hadas curan, los Dragones atacan con fuego y las Quimeras combinan múltiples habilidades.
 - Reproducción y migración de criaturas entre nodos activos.
 - Aislamiento de nodos para evitar la participación de criaturas en el ciclo.
-- Guardado automático del estado del mundo en un archivo JSON.
+- Guardado del estado del mundo en un archivo JSON.
 - Carga automática del mundo si existe un archivo previo.
 
 ### 🕹 Instrucciones de uso
