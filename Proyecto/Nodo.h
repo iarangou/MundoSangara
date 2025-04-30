@@ -8,15 +8,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>  // std::remove
 #include "json.hpp"  // Para usar json
 using json = nlohmann::json;
 using namespace std;
 
 #include "MagicalCreature.h"
-#include "Dragon.h"
-#include "Hada.h"
-#include "Quimera.h"
+
 
 
 class Nodo {
@@ -28,73 +25,40 @@ private:
 
 public:
     // Constructor
-    Nodo(int id) : id(id), pulso_vital(true), estado("Activo") {}
+    Nodo(int id);
 
     // Getters
-    int getId() const {
-        return id;
-    }
+    int getId() const;
 
-    bool getPulsoVital() const {
-        return pulso_vital;
-    }
+    bool getPulsoVital() const;
 
-    string getEstado() const {
-        return estado;
-    }
+    string getEstado() const;
 
 
-    vector<MagicalCreature*>* getCriaturas() {
-        return &criaturas;
-    }
+    vector<MagicalCreature*>* getCriaturas();
 
-    void setCriaturas(const vector<MagicalCreature*>& nuevas) {
-        criaturas = nuevas;
-    }
+    void setCriaturas(const vector<MagicalCreature*>& nuevas);
 
     // Setters
-    void setPulsoVital(bool pulso) {
-        pulso_vital = pulso;
-    }
+    void setPulsoVital(bool pulso);
 
-    void setEstado(const string& est) {
-        estado = est;
-    }
+    void setEstado(const string& est);
 
     // Métodos funcionales
-    void agregarCriatura(MagicalCreature* creature) {
-        criaturas.push_back(creature);
-    }
+    void agregarCriatura(MagicalCreature* creature);
 
-    void eliminarCriatura(MagicalCreature* creature) {
-        criaturas.erase(remove(criaturas.begin(), criaturas.end(), creature), criaturas.end());
-    }
+    void eliminarCriatura(MagicalCreature* creature);
 
-    void vaciarse() {
-        criaturas.clear();
-    }
+    void vaciarse();
 
-    void mostrarCriaturas() {
-        for (auto* criatura : criaturas) {
-            criatura->mostrar();
-        }
-    }
+    void mostrarCriaturas();
 
-    // Serialización a JSON
-    json serializar() const {
-        json j;
-        j["id"] = id;
-        j["pulso_vital"] = pulso_vital;
-        j["estado"] = estado;
-        j["criaturas"] = json::array();
-        for (auto* criatura : criaturas) {
-            j["criaturas"].push_back(criatura->serializar());
-        }
-        return j;
-    }
+    // Serialización a JSON nodo
+    json serializar() const;
 };
 
 
 
 
 #endif //NODO_H
+
