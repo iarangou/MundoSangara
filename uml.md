@@ -60,18 +60,22 @@ class Nodo {
     - bool pulso_vital
     - string estado
     - vector<MagicalCreature*> criaturas
+
     + Nodo(int id)
     + int getId()
     + bool getPulsoVital()
     + string getEstado()
-    + void mostrarCriaturas()
     + void setPulsoVital(bool pulso)
     + void setEstado(string est)
+    + void mostrarCriaturas()
     + void agregarCriatura(MagicalCreature* creature)
     + void eliminarCriatura(MagicalCreature* creature)
+    + void setCriaturas(vector<MagicalCreature*> nuevas)
+    + vector<MagicalCreature*>* getCriaturas()
     + void vaciarse()
     + json serializar() const
 }
+
 
 MagicalCreature <|-- Dragon
 MagicalCreature <|-- Hada
