@@ -10,19 +10,19 @@
 
 ---
 
-### ✅ Autoevaluación — *[Nombre del evaluador]*
+### ✅ Autoevaluación — *[Isabella Arango]*
 
 | Criterio                          | Puntaje (1-5) | Comentarios breves                                   |
 |----------------------------------|---------------|-------------------------------------------------------|
-| Colaboración y trabajo en equipo |               |                                                       |
-| Responsabilidad y compromiso     |               |                                                       |
-| Contribución técnica             |               |                                                       |
-| Uso de asistentes de IA          |               |                                                       |
-| **Subtotal autoevaluación**      | ** / 20**      |                                                      |
+| Colaboración y trabajo en equipo |        5      | trabajamos bajo full comunicacion presencialy virtual |
+| Responsabilidad y compromiso     |        4      | Cumpli con la parte que acorde acomodar del proyecto  |
+| Contribución técnica             |        5      | Maneje el github, hice la clase de los nodos y el main|
+| Uso de asistentes de IA          |        5      | La use para modificar, y hacer mas eficientes las partes del main |
+| **Subtotal autoevaluación**      | ** 19 / 20**  |                                                      |
 
 ---
 
-### 👤 Coevaluación — *[Nombre evaluado]* (evaluada por [Nombre del evaluador])
+### 👤 Coevaluación — *[Isabella Arango]* (evaluada por [Santiago Carvajal])
 
 | Criterio                          | Puntaje (1-5) | Comentarios breves                          |
 |----------------------------------|---------------|----------------------------------------------|
@@ -31,6 +31,16 @@
 | Contribución técnica             |               |                                              |
 | Uso de asistentes de IA          |               |                                              |
 | **Subtotal evaluación de [Nombre del evaluador]** | ** / 20** |                                        |
+
+### 👤 Coevaluación — *[Santiago Carvajal]* (evaluada por [Isabella Arango])
+
+| Criterio                          | Puntaje (1-5) | Comentarios breves                          |
+|----------------------------------|---------------|----------------------------------------------|
+| Colaboración y trabajo en equipo |        5      |  Comunica bien sus ideas                     |
+| Responsabilidad y compromiso     |        5      |  Es cumplido con lo que tiene que hacer      |
+| Contribución técnica             |        5      |  Hizo la parte de las criaturas              |
+| Uso de asistentes de IA          |        5      |  Hace buenos prompts                         |
+| **Subtotal evaluación de [Nombre del evaluador]** | **20 / 20** |                                        |
 
 ---
 
